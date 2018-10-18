@@ -1,0 +1,41 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "orderId": {
+      "default": "",
+      "type": "string"
+    },
+    "productName": {
+      "default": "",
+      "type": "string"
+    },
+    "total": {
+      "default": "",
+      "type": "decimal"
+    },
+    "customerName": {
+      "default": "",
+      "type": "string"
+    },
+    "shippingAddress": {
+      "default": "",
+      "type": "string"
+    },
+    "shippingZip": {
+      "default": "",
+      "type": "string"
+    },
+    "quantity": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}
